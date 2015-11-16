@@ -1,9 +1,8 @@
-Commit initial.
+Developpement back-end
 
-- Back-end en cours
+- Login et gestion de sessions etudiants
 
 A faire:
 
- - Ajouter l'interface
- - Terminer le back-end
- - Division en branches git
+ - Debuggage (categories)
+ - Login et gestion de sessions admin

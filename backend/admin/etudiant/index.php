@@ -10,16 +10,18 @@
 <body>
 
 	<body>
-	<a href="../../forms/article/ajouter.inc?id=<?php echo $_GET['id']?>">
+	<a href="../../forms/article/ajouter.inc">
 		<div>Ajouter un article</div>
 	</a>
-	<a href="../../action/article/actionarticle.php?id=<?php echo $_GET['id']?>">
+	<a href="../../action/article/actionarticle.php">
 		<div>Suprimer mes articles</div>
 	</a>
 	
   	<a href="authentifier/authentifier.php">
 		<div>Editer mes articles</div>
 	</a>
+	
+	
     </body>
     
 </body>

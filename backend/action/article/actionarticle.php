@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once '../../module/model/connection.php';
 require_once '../../module/model/etudiant/etudiant.php';
 require_once '../../module/model/authentifier/authentifier.php';
@@ -14,7 +15,10 @@ $pwd = (isset ( $_POST ["pwd_etudiant"] )) ? $_POST ["pwd_etudiant"] : "";
 
 <?php 
 $art = new article();
-$reponse = $art->get_all_article($_GET['id']);
+echo $_SESSION['id'];
+$etu = new etudiant();
+$hb = $etu -> get_id($_SESSION['id'])->fetch()[0];
+$reponse = $art->get_all_article($hb);
 
 ?>
         <table>
@@ -39,7 +43,7 @@ while ($donnees = $reponse->fetch(PDO::FETCH_ASSOC))
 }
 ?>
             
-			<a href="../../admin/etudiant/index.php?id=<?php echo $_GET['id'] ?>">
+			<a href="../../admin/etudiant/index.php">
 				<div class="annuler">
 					<p>Annuler la suppression</p>
 				</div>

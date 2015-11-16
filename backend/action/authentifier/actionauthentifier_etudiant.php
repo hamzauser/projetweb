@@ -12,13 +12,10 @@ $auth = new authentifier_user();
 $var = $auth->verification_user($_POST ["login_etudiant"])->fetch()[0];
 if($var == $pwd ){
 	echo (" Authentification Reussi");
-	//include_once ("../../admin/etudiant/index.php");
-	?>
-	<div>Bonjour <?php echo $_POST ["login_etudiant"] ?></div>
-	<a href='../../admin/etudiant/index.php?id= <?php echo($etu->get_id($_POST ["login_etudiant"])->fetch()[0]) ?>'>Menu</a>
-	<a href="../../admin/index.php">
-		<div>Quitter</div>
-	</a>
+	include_once ("../../admin/etudiant/index.php");	
+	session_start();
+	$_SESSION['id'] =  $_POST ["login_etudiant"];
+?>
 <?php 	
 	} else {
 	echo ("Echec de Authentification");
