@@ -1,9 +1,4 @@
-Commit initial.
+Commit initial branche gui.
 
-- Back-end en cours
-
-A faire:
-
- - Ajouter l'interface
- - Terminer le back-end
- - Division en branches git
+- Choix de l'interface
+- Modifications des images

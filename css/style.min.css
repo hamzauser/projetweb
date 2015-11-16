@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	outline:0
+}
+	.container-fluid{
+		background-image:url(../image/1.jpg);
+		background-repeat:  no-repeat;
+		background-size: 50% 100%;
+		background-position: fixed;
+		background-attachment: fixed;
+		top left
+		width: auto;
+		height: auto;
+	}
+	.titre{
+		background:rgba(255, 255, 255, 0.85);
+		text-align:center;
+		border-radius:3px;
+		color:rgb(245, 167, 152);
+		font-size:42px;
+		letter-spacing:5px;
+		line-height:100%
+	}
+		
+	h1,h2,h3{
+		font-family:'IM+Fell+French+Canon:400italic', serif, 'Open Sans';
+		margin:15px 0 15px 0
+	}
+	h2{
+		color:rgb(245, 167, 152);
+		margin-top:0px;
+		margin-bottom:40px;
+		font-size:34px
+	}
+	h3{
+		margin-top:0px;
+		padding-top:0px;
+		font-size:32px;
+		color:rgba(211, 139, 78, 0.71)
+	}
+	p{
+		font-family:'Source Sans Pro', 'Arial', 'Verdana', serif
+	}
+	
+	.more{
+		color:#fff
+	}
+	.row{
+		text-align:left
+	}
+	img{
+		margin-top:10px
+	}
+	.article{
+		max-width:600px;
+		background:rgba(255, 255, 255, 0.85);
+		border-radius:10px;
+		margin-top:5px;
+		padding:5px 0px 0px 8px
+	}
+	.img-responsive{
+		border-radius:5px;
+		margin-top:5px
+	}
+	p{
+		margin:0 0 15px 0
+	}
+	.clear{
+		clear:both
+	}
+	.wrap{
+		width:100%;
+		z-index:10;
+		position:relative;
+		margin:0 auto;
+		padding:0
+	}
+	.titre{
+		margin-top:0px;
+		padding-top:0px
+	}
+	#haut{
+		margin-top:180px
+	}
+	.inner{
+		width:100%;
+		margin:0 auto;
+		position:relative;
+		padding:30px 0;
+		font-size:18px;
+		font-family:'Open Sans', sans-serif
+	}
+	.inner:after{content:"";display:table;clear:both}
+	.subMenu{height:50px;z-index:1000;width:100%}
+	.subMenu 
+	.inner{padding:0;margin:0 auto}
+	.subNavBtn{
+		display:block;
+		height:35px;
+		margin:0px 0px 0 0;
+		text-decoration:none;
+		font-size:16px;
+		padding:10px 2% 0 2%;
+		text-align:center
+	}
+	.subMenu 
+	a:hover{background:rgba(255, 255, 255, 0.34)}
+	.btn{
+		background-color:rgba(211, 139, 78, 0.61);
+		margin-bottom:28px;
+		text-decoration:none;
+		overflow:hidden
+	}
+	.btn:hover{
+		background:rgba(245, 167, 152, 0.35);
+		border:transparent
+	}
+	.end{margin:0}
+	
+	iframe{width:100%;height:300px;border:none;border-radius:15px 20px;padding-right:8px}
+	
+	.ressoc{width:12%;margin-left:5px}
+	
+	.separation{display:none}
+	
+	.form-control{background-color:rgba(211, 139, 78, 0.25)}
+	
+	.section{width:100%;z-index:10;position:relative;padding:0 0 20px 0}
+	
+	#envoi{margin-top:10px}
+	
+	#envoi 
+	
+	a{color:#fff}
+	
+	#ad 
+	
+	h3{margin-top:10px}
+	
+	@media (max-width: 1024px){
+		.container-fluid{background:none}
+		.container{background:url(../image/fondyeux.jpg) no-repeat;background-size:100%;max-width:500px}
+		.navbar-header{position:relative}
+		.btn:hover{background:rgba(245, 167, 152, 0.35);border:transparent}}
